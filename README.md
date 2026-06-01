@@ -1,4 +1,4 @@
-# MUIZI
+# MUIZI fetch
 
 Minecraft public-info fetcher web app (Express + frontend form) with Discord webhook delivery and an interactive Minecraft skin viewer.
 
