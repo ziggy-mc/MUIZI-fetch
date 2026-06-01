@@ -1,7 +1,7 @@
 {
-  "name": "mcusername-fetch",
+  "name": "MUIZI-fetch",
   "version": "1.0.0",
-  "description": "Minecraft public info fetcher with webhook delivery",
+  "description": "Minecraft public info fetcher with webhook delivery (background check)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
