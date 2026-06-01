@@ -1,6 +1,6 @@
 # Security Policy
 
-This overviews how to use MUIZI correctly.
+This overviews how to use MUIZI fetch correctly.
 
 ## Supported Versions
 
