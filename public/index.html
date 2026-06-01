@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUIZI Demo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>MUIZI</h1>
+      <form id="lookupForm" class="form">
+        <label for="usernameInput">Minecraft username</label>
+        <input
+          id="usernameInput"
+          name="username"
+          type="text"
+          autocomplete="off"
+          maxlength="36"
+          required
+          placeholder="e.g. ziggy"
+        />
+        <ul id="suggestions" class="suggestions" aria-label="Autocomplete suggestions"></ul>
+        <button id="submitButton" type="submit">Submit</button>
+      </form>
+      <div id="loading" class="loading hidden" aria-live="polite">
+        <div class="spinner" aria-hidden="true"></div>
+        <span>Submitting...</span>
+      </div>
+    </main>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
