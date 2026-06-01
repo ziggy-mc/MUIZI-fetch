@@ -87,7 +87,7 @@ function buildDiscordPayload(data, options = {}) {
   const embeds = [
     {
       title: "Minecraft Lookup Result",
-      url: "https://github.com/ziggy-mc/MUIZI",
+      url: "https://github.com/ziggy-mc/MUIZI-fetch",
       color: 0x00aaee,
       fields: [
         {
